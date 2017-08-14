@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* CSS Document */
+#apw-authors a{
+    color: #6FA5DB;
+    line-height: 16px;
+    text-decoration: none;	
+}
+#apw-authors div a.apw-parent{
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 0 0 0 16px;
+	line-height:22px;
+	cursor:pointer;
+}
+#apw-authors div.apw-closed a.apw-parent{
+    background-image: url("../images/nolines_plus.gif");
+}
+#apw-authors div a.apw-parent span{
+	color: #989898;
+}
+#apw-authors div.apw-opened a.apw-parent{
+    background-image: url("../images/nolines_minus.gif");
+}
+#apw-authors div ul{
+	margin-left:16px;
+}
+#apw-authors div.apw-opened ul{
+	display:block;
+}
+#apw-authors div.apw-closed ul{
+	display:none;
+}
